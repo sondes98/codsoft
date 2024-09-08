@@ -83,7 +83,7 @@ def chat():
     while True:
         user_input = input("You: ")
         if user_input.lower() == "bye":
-            response = "Goodbye! Have a great day!"
+            response = "Goodbye! Have a great day!" 
             print(f"Chatbot: {response}")
             speak(response)
             break
